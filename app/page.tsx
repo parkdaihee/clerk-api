@@ -20,7 +20,7 @@ function Homepage() {
       }}
     >
       <h1 style={{ fontSize: '2em', marginBottom: '10px', color: 'white' }}>
-        Park Daihee's Homepage
+        Park Daihee Homepage
       </h1>
       <p style={{ fontSize: '1.5em', marginBottom: '20px', color: 'white' }}>
         안녕하세요! 박대희의 홈페이지에 오신 것을 환영합니다.
