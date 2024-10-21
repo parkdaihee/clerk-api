@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Example() {
   return (
     <div className="bg-gray-50 py-24 sm:py-32">
@@ -27,12 +25,12 @@ export default function Example() {
               </div>
               <div className="relative min-h-[30rem] w-full grow">
                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                  <Image
+                  <img
                     className="size-full object-cover object-top"
                     src="https://tailwindui.com/plus/img/component-images/bento-03-mobile-friendly.png"
                     alt="Front-end Developer"
-                    width={500} // 적절한 width 지정
-                    height={300} // 적절한 height 지정
+                    width={500}
+                    height={300}
                   />
                 </div>
               </div>
@@ -53,12 +51,12 @@ export default function Example() {
                 </p>
               </div>
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-                <Image
+                <img
                   className="w-full max-lg:max-w-xs"
                   src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
                   alt="Current Energy State"
-                  width={500} // 적절한 width 지정
-                  height={300} // 적절한 height 지정
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -78,12 +76,12 @@ export default function Example() {
                 </p>
               </div>
               <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-                <Image
+                <img
                   className="h-[min(152px,40cqw)] object-cover object-center"
                   src="https://tailwindui.com/plus/img/component-images/bento-03-security.png"
                   alt="Security Expert"
-                  width={500} // 적절한 width 지정
-                  height={300} // 적절한 height 지정
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
