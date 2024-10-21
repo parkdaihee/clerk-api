@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const posts = [
   {
     id: 1,
@@ -152,10 +154,12 @@ export default function Portfolio() {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                <img
+                <Image
                   alt={post.author.name}
                   src={post.author.imageUrl}
                   className="h-10 w-10 rounded-full bg-gray-50"
+                  width={40} // 적절한 width 지정
+                  height={40} // 적절한 height 지정
                 />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">

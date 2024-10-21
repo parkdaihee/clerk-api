@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Example() {
   return (
     <div className="bg-gray-50 py-24 sm:py-32">
@@ -25,10 +27,12 @@ export default function Example() {
               </div>
               <div className="relative min-h-[30rem] w-full grow">
                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                  <img
+                  <Image
                     className="size-full object-cover object-top"
                     src="https://tailwindui.com/plus/img/component-images/bento-03-mobile-friendly.png"
                     alt="Front-end Developer"
+                    width={500} // 적절한 width 지정
+                    height={300} // 적절한 height 지정
                   />
                 </div>
               </div>
@@ -49,10 +53,12 @@ export default function Example() {
                 </p>
               </div>
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-                <img
+                <Image
                   className="w-full max-lg:max-w-xs"
                   src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
                   alt="Current Energy State"
+                  width={500} // 적절한 width 지정
+                  height={300} // 적절한 height 지정
                 />
               </div>
             </div>
@@ -72,10 +78,12 @@ export default function Example() {
                 </p>
               </div>
               <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-                <img
+                <Image
                   className="h-[min(152px,40cqw)] object-cover object-center"
                   src="https://tailwindui.com/plus/img/component-images/bento-03-security.png"
                   alt="Security Expert"
+                  width={500} // 적절한 width 지정
+                  height={300} // 적절한 height 지정
                 />
               </div>
             </div>
@@ -88,7 +96,7 @@ export default function Example() {
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
               <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                  I'm studying JavaScript.
+                  I&apos;m studying JavaScript.
                 </p>
                 <p className="mt-2 max-w-lg text-sm text-gray-600 max-lg:text-center">
                   웹보안프로그래밍 시간에 있습니다. 현재 자바 스크립트 공부중에
