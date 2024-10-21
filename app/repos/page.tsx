@@ -1,10 +1,20 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 
-const tiers = [
+type Tier = {
+  name: string
+  id: string
+  href: string
+  priceMonthly: string
+  description: string
+  features: string[]
+  featured: boolean
+}
+
+const tiers: Tier[] = [
   {
     name: 'Apple Music',
     id: 'tier-hobby',
-    href: 'https://music.apple.com/kr/new', // Update the href for Hobby tier
+    href: 'https://music.apple.com/kr/new',
     priceMonthly: '₩8,900',
     description:
       '자신에게 맞는 요금제 선택하기. 무약정으로 부담 없이. 해지는 언제든지.',
@@ -19,7 +29,7 @@ const tiers = [
   {
     name: 'Netflix',
     id: 'tier-enterprise',
-    href: 'https://www.netflix.com/kr/', // Update the href for Enterprise tier
+    href: 'https://www.netflix.com/kr/',
     priceMonthly: '₩17,000',
     description:
       'Netflix 프리미엄으로 가족과 함께 4K(UHD) + HDR 화질을 체험해 보세요.',
@@ -140,6 +150,8 @@ export default function Pricing() {
             </ul>
             <a
               href={tier.href} // Use the href from the tier object
+              target="_blank" // 새 탭에서 열기
+              rel="noopener noreferrer" // 보안 강화
               aria-describedby={tier.id}
               className={classNames(
                 tier.featured

@@ -7,9 +7,9 @@ const posts = [
       '처음 제작 했던 만큼 미숙했고 홈페이지의 색깔 변경 이나, 각종 HTML 동영상들이 들어가 있습니다.',
     date: 'Mar 25, 2024',
     datetime: '2021-04-05',
-    category: { title: 'First Hompage', href: 'https://hcj-1.vercel.app/' },
+    category: { title: 'First Homepage', href: 'https://hcj-1.vercel.app/' },
     author: {
-      name: 'First Hompage',
+      name: 'First Homepage',
       role: 'HTML / CSS',
       href: 'https://hcj-1.vercel.app/',
       imageUrl: '/1.png',
@@ -21,15 +21,15 @@ const posts = [
       '1학기 웹프로그래밍 수업을 들으면서 진행했던 중간고사 평가물 입니다.',
     href: '#',
     description:
-      '처음 HTML,CSS 를 배우고 만들었던 결과물이라 미숙했던 부분이 많이 있습니다.',
+      '처음 HTML, CSS 를 배우고 만들었던 결과물이라 미숙했던 부분이 많이 있습니다.',
     date: 'Apr 23, 2021',
     datetime: '2021-04-05',
     category: {
-      title: 'Middle Test Hompage',
+      title: 'Middle Test Homepage',
       href: 'https://realfinal.vercel.app/index.html',
     },
     author: {
-      name: 'Middle Test Hompage',
+      name: 'Middle Test Homepage',
       role: 'HTML / CSS',
       href: 'https://realfinal.vercel.app/index.html',
       imageUrl: '/2.png',
@@ -57,10 +57,10 @@ const posts = [
   {
     id: 4,
     title:
-      '이 웹사이트는 팀원들과 함께 제작한 HTML과 CSS를 소개하는 사이트입니다 ',
+      '이 웹사이트는 팀원들과 함께 제작한 HTML과 CSS를 소개하는 사이트입니다.',
     href: '#',
     description:
-      '팀원들과 한페이지 한페이지 제작 하였고 HTML과 CSS를 배우고 이에 도움이 되는 많은 것들이 담긴 사이트 입니다.',
+      '팀원들과 한 페이지 한 페이지 제작 하였고 HTML과 CSS를 배우고 이에 도움이 되는 많은 것들이 담긴 사이트 입니다.',
     date: 'Jun 18, 2024',
     datetime: '2021-04-05',
     category: { title: 'Team Project', href: 'https://webp-main.vercel.app/' },
@@ -77,7 +77,7 @@ const posts = [
       '이 웹사이트는 1학기 기말고사에 제작한 홈페이지 입니다. 무신사 쇼핑몰들의 제품들에 대한 내용이 나와있습니다.',
     href: '#',
     description:
-      '확실히 많은 부분들이 성장하였고, 비록 실제로 물건을 주문하지는 못하는 사이트 이지만 그래도 처음으로 쇼핑몰을 따라 했다는 것에 많은 것들을 느낄수 있었습니다. 랜덤하게 인플루언서들의 사진들을 볼수 있고, 배경색 바꾸기, 사진 숨기기 기능들을 사용할수 있습니다.',
+      '확실히 많은 부분들이 성장하였고, 비록 실제로 물건을 주문하지는 못하는 사이트 이지만 그래도 처음으로 쇼핑몰을 따라 했다는 것에 많은 것들을 느낄 수 있었습니다. 랜덤하게 인플루언서들의 사진들을 볼 수 있고, 배경색 바꾸기, 사진 숨기기 기능들을 사용할 수 있습니다.',
     date: 'Jun 19, 2024',
     datetime: '2021-04-05',
     category: {
@@ -93,11 +93,10 @@ const posts = [
   },
   {
     id: 6,
-    title:
-      '웹 보안 프로그래밍 2학기 에서의 첫번째 js를 이용한 프로젝트 입니다.',
+    title: '웹 보안 프로그래밍 2학기에서의 첫번째 js를 이용한 프로젝트 입니다.',
     href: '#',
-    description: '현재 진행형 이며 다양한 js 기능들을 배우고 있는 중입니다.',
-    date: 'oct 15, 2024',
+    description: '현재 진행형이며 다양한 js 기능들을 배우고 있는 중입니다.',
+    date: 'Oct 15, 2024',
     datetime: '2021-04-05',
     category: {
       title: 'Next Js',
@@ -110,10 +109,9 @@ const posts = [
       imageUrl: '/6.png',
     },
   },
-  // More posts...
 ]
 
-export default function Example() {
+export default function Portfolio() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -122,7 +120,7 @@ export default function Example() {
             Personal Portfolio
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            지금까지 배우고 만들었던 포트폴리오 내용들 입니다.
+            지금까지 배우고 만들었던 포트폴리오 내용들입니다.
           </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -155,7 +153,7 @@ export default function Example() {
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
                 <img
-                  alt=""
+                  alt={post.author.name}
                   src={post.author.imageUrl}
                   className="h-10 w-10 rounded-full bg-gray-50"
                 />
