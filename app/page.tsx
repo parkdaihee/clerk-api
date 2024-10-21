@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Example() {
   return (
     <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -14,31 +12,22 @@ export default function Example() {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
             <p>
-              안녕하세요! 박대희의 홈페이지에 오신 것을 환영합니다. 이곳은 저의
-              다양한 프로젝트와 작업을 소개하는 공간입니다. 함께하는 모든 순간이
-              소중하며, 여러분의 방문을 진심으로 감사합니다.&apos;
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+              molestiae. Numquam corrupti in laborum sed rerum et corporis.”
             </p>
           </blockquote>
           <figcaption className="mt-10">
-            <Image
+            <img
               alt=""
-              src="/박대희.png" // 이미지 경로
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               className="mx-auto h-10 w-10 rounded-full"
-              width={40} // 원하는 너비
-              height={40} // 원하는 높이
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-gray-900">Park Daihee</div>
-              <svg
-                width={3}
-                height={3}
-                viewBox="0 0 2 2"
-                aria-hidden="true"
-                className="fill-gray-900"
-              >
+              <div className="font-semibold text-gray-900">Judith Black</div>
+              <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
                 <circle r={1} cx={1} cy={1} />
               </svg>
-              <div className="text-gray-600">중부대학교 정보보호학과</div>
+              <div className="text-gray-600">CEO of Workcation</div>
             </div>
           </figcaption>
         </figure>
