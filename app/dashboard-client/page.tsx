@@ -102,12 +102,12 @@ const posts = [
     datetime: '2021-04-05',
     category: {
       title: 'Next Js',
-      href: 'https://github.com/parkdaihee/clerk-api',
+      href: 'https://park-api.vercel.app/',
     },
     author: {
       name: 'First Next Js Website',
       role: 'Next Js',
-      href: 'https://github.com/parkdaihee/clerk-api',
+      href: 'https://park-api.vercel.app/',
       imageUrl: '/6.png',
     },
   },
@@ -146,7 +146,7 @@ const posts = [
       name: 'First Homepage',
       role: 'HTML / CSS',
       href: 'https://hcj-1.vercel.app/',
-      imageUrl: '/1.png',
+      imageUrl: '/8.png',
     },
   },
   {
@@ -204,7 +204,7 @@ const posts = [
       name: 'First Next Js Website',
       role: 'Next Js',
       href: 'https://amazonemall-ibczrmx9o-parkdaihees-projects.vercel.app/',
-      imageUrl: '/6.png',
+      imageUrl: '/11.png',
     },
   },
 
@@ -224,7 +224,7 @@ const posts = [
       name: 'First Next Js Website',
       role: 'Next Js',
       href: 'https://far-nu.vercel.app/',
-      imageUrl: '/6.png',
+      imageUrl: '/12.png',
     },
   },
 ]
