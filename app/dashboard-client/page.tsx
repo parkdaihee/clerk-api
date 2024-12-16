@@ -238,7 +238,8 @@ export default function Portfolio() {
             Personal Portfolio
           </h2>
           <p className='mt-2 text-lg leading-8 text-gray-600'>
-            지금까지 배우고 만들었던 포트폴리오 내용들입니다.
+            지금까지 배우고 만들었던 포트폴리오 내용들입니다.<br />
+            <strong>그림 클릭시 해당 페이지로 이동합니다.</strong>
           </p>
         </div>
         <div className='mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3'>
