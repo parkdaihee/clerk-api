@@ -134,22 +134,6 @@ const posts = [
   },
 
   {
-    id: 8,
-    title: '7개월전 처음 제작했던 개인 홈페이지 포트폴리오 입니다.',
-    href: '#',
-    description:
-      '처음 제작 했던 만큼 미숙했고 홈페이지의 색깔 변경 이나, 각종 HTML 동영상들이 들어가 있습니다.',
-    date: 'Mar 25, 2024',
-    datetime: '2021-04-05',
-    category: { title: 'First Homepage', href: 'https://hcj-1.vercel.app/' },
-    author: {
-      name: 'First Homepage',
-      role: 'HTML / CSS',
-      href: 'https://hcj-1.vercel.app/',
-      imageUrl: '/8.png',
-    },
-  },
-  {
     id: 9,
     title: 'api에 대한 2번째 프로젝트 입니다.',
     href: '#',
